@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    body{
+      /* box-sizing: border-box; */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 22px;
+      font-weight: bold; 
+      text-align: center; 
+      color: rgb(29,40,60);
+      background-color: rgb(213,225, 239);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0 10vh;
+    }
+    a{color: rgb(0, 0, 255); text-decoration: none;}
+    .text-container{ margin: 15px 15px;}
+    span{
+      text-align: center;
+      margin: 15px 0;
+      font-weight:500;
+      font-size: medium;
+      display: block;
+      color: rgb(128, 128, 128);
+    }
+
+    .container{
+      margin-top: 18vh;
+      margin-bottom: 5vh;
+      width: 320px;
+      height: 480px;
+      border-radius:20px;
+      background: rgb(255, 255, 255);
+      padding: 15px 5px;
+      }
+
+  </style>
+
+</head>
+
+<body>
+  <div>
+    <div class="container">
+      <div class="QR-container">
+        <img style="  outline: 1px solid rgb(128, 128, 128);border-radius:10px;" height="300px"  width="300" src="images/image-qr-code.png" alt="">
+      
+      </div>
+      <div class="text-container">
+        Improve your front-end skills by building projects
+       <span>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span>
+      </div>
+
+    </div>
+<br>
+    <div style="display: block;" class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="mailto:beny@gmail.com">beny</a>
+    </div>
+  </div>
+</body>
+</html>
